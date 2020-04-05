@@ -2,6 +2,7 @@
 #include <vector>
 #include <cmath>
 
+// Kadane's alg
 
 int maxSumOfSubArr(std::vector<int> &v) {
 	
