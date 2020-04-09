@@ -13,9 +13,9 @@ string deleteBackspaces(string &str) {
 	
 	while(i < lenStr) {
             if(str[i] == '#') {
-				while(str[j] == '#' && j > 0) {
-					--j;
-					}
+		while(str[j] == '#' && j > 0) {
+			--j;
+			}
                 str[j] = '#';
                 if(j != 0) --j;
             } else j = i;
